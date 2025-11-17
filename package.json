@@ -2,6 +2,12 @@
   "name": "Sharthi",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-alert-dialog": "^1.1.6",
@@ -30,7 +36,7 @@
     "@radix-ui/react-toggle-group": "^1.1.2",
     "@radix-ui/react-tooltip": "^1.1.8",
     "class-variance-authority": "^0.7.1",
-    "clsx": "*",
+    "clsx": "latest",
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
@@ -43,16 +49,12 @@
     "react-resizable-panels": "^2.1.7",
     "recharts": "^2.15.2",
     "sonner": "^2.0.3",
-    "tailwind-merge": "*",
+    "tailwind-merge": "latest",
     "vaul": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
-    "@vitejs/plugin-react-swc": "^3.6.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.2.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
   }
 }
